@@ -53,7 +53,7 @@ jobs:
         if: ${{ success() }}
         run: |
           curl --location --request POST 'https://api.telegram.org/bot6859751998:AAHiHl94PgPX4c4OvrT7fm9Cg6DPnLV1SLc/sendMessage' \
-          --form 'chat_id=@matssans' \
+          --form 'chat_id=@matssanss' \
           --form 'text=Woy Apakah Berhasil? --- RPL 2A'
 
   laravel_test:

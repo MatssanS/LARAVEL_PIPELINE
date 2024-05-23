@@ -53,5 +53,5 @@ jobs:
         if: ${{ success() }}
         run: |
           curl --location --request POST 'https://api.telegram.org/bot6859751998:AAHiHl94PgPX4c4OvrT7fm9Cg6DPnLV1SLc/sendMessage' \
-          --form 'chat_id=@MatssanS' \
+          --form 'chat_id=1890594581' \
           --form 'text=Woy Apakah Berhasil? --- RPL 2A'
